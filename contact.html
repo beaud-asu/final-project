@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Alpine Crest Resort | Contact</title>
+        <meta name="description" content="Contact page for Alpine Crest Resort. Relax, explore, enjoy.">
+        <meta name="author" content="Beau Diaz">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html">Alpine Crest Resort | Contact</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+        <div class="hero">
+            <img src="images/swiss-valley.jpg" alt="Image of a beautiful lush valley" width="">
+        </div>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a <span class="required">*</span></p>
+        </div>
+        <div class="peak">
+            <img src="images/swiss-peak.jpg" alt="Image of a snowy swiss peak with a blue sky behind it" width="">
+        </div>
+            
+        <section id="form">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+
+            <label for="full-name">Full Name: <span class="required">*</span></label>
+            <input type="text" name="full-name" id="full-name" required>
+
+            <label for="email-addr">Email Address: <span class="required">*</span></label>
+            <input type="email" name="email-addr" id="email-addr" required>
+
+            <label for="phone-num">Phone Number: <span class="required">*</span></label>
+            <input type="tel" name="phone-num" id="phone-num" required>
+
+            <fieldset>
+                <legend>Preferred Contact Method: <span class="required">*</span></legend>
+
+                <input type="radio" name="pref-contact" id="email" value="email" required checked>
+                <label for="email">Email</label>
+
+                <input type="radio" name="pref-contact" id="phone" value="phone">
+                <label for="phone">Phone</label>
+            </fieldset>
+
+            <label for="comments">Add Your Comments Below: <span class="required">*</span></label>
+            <textarea name="comments" id="comments" required></textarea>
+
+            <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+            </form>
+        </section>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2023 - Alpine Crest Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
